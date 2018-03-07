@@ -12,12 +12,12 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to JSON Forms with React</h1>
-            <p className="App-intro">More Forms. Less Code.</p>
+            <h1 className="App-title">REGISTRO NACIONAL​ DEL DELITO DE TORTURA</h1>
+            <p className="App-intro">prevención y combate</p>
           </header>
         </div>
 
-        <h4 className="data-title">Bound data</h4>
+        <h4 className="data-title">Formulario Ejemplo</h4>
         <div className="data-content">
           <pre>{this.props.dataAsString}</pre>
         </div>
