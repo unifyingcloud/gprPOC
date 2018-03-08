@@ -1,54 +1,22 @@
 {
     "type": "VerticalLayout",
     "elements": [
+     
       {
         "type": "Control",
-        "label": false,
-        "scope": "#/properties/done"
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/name"
+        "scope": "#/properties/Numero de Averiguacion"
       },
       {
         "type": "HorizontalLayout",
         "elements": [
           {
             "type": "Control",
-            "scope": "#/properties/due_date"
-          },
-          {
-            "type": "Control",
-            "scope": "#/properties/rating"
+            "scope": "#/properties/Fecha"
           }
+         
         ]
-      },
-      {
-        "type": "Control",
-        "scope": "#/properties/description",
-        "options": {
-            "multi": true
-        }
-      },
-      {
-        "type": "HorizontalLayout",
-        "elements": [
-          {
-            "type": "Control",
-            "scope": "#/properties/recurrence"
-          },
-          {
-            "type": "Control",
-            "scope": "#/properties/recurrence_interval",
-            "rule": {
-                "effect": "HIDE",
-                "condition": {
-                    "scope": "#/properties/recurrence",
-                    "expectedValue": "Never"
-                }
-            }
-          }
-        ]
-      }
+      } 
+        
+      
     ]
   }

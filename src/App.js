@@ -15,7 +15,7 @@ class App extends Component {
                <li class="active">Delitos de tortura</li>
           </ol>
           <div class="row"  >
-              <div class="col-md-8"><h1>Delitos de Tortura</h1></div>
+              <div class="col-md-8"><h1>Registro Nacional de Delitos de Tortura</h1></div>
               <div class="col-md-2"></div>
           </div>
 
