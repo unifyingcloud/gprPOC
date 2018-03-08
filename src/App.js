@@ -8,24 +8,27 @@ import {JsonForms, getData} from '@jsonforms/core';
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">REGISTRO NACIONAL​ DEL DELITO DE TORTURA</h1>
-            <p className="App-intro">prevención y combate</p>
-          </header>
-        </div>
+      <div class="container">
+          <ol class="breadcrumb">
+                 <li><a href="http://www.gob.mx/"><i class="icon icon-home"></i></a></li>
+              <li><a href="http://www.fepadenet.gob.mx/">Inicio</a></li>
+               <li class="active">Delitos de tortura</li>
+          </ol>
+          <div class="row"  >
+              <div class="col-md-8"><h1>Delitos de Tortura</h1></div>
+              <div class="col-md-2"></div>
+          </div>
 
-        <h4 className="data-title">Formulario Ejemplo</h4>
-        <div className="data-content">
-          <pre>{this.props.dataAsString}</pre>
-        </div>
-
-        <div className="demoform">
+          <div class="col-md-12 alert alert-warning"  >
+                  <p  ><b>Los delitos de tortura deben ser denunciados.<br/>
+                     Ayúdanos a prevenir y perseguir los delitos de tortura.</b></p>
+              </div>
+              <div className="demoform">
           <JsonForms />
         </div>
-      </div>
+
+     </div>
+    
     );
   }
 
