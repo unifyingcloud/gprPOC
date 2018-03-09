@@ -10,7 +10,21 @@
       "format": "date",
       "description":"FECHA DE INICIO DE LA CARPETA DE INVESTIGACION"
        
-  } 
+  } ,"TORTURA": {
+   "type": "boolean",
+   "description":"Tortura"
+   },
+   "VINCULADOS": {
+    "type": "boolean",
+    "description":"Delitos Vinculados"
+  
+    },
+    "TRATOS": {
+     "type": "boolean"    
+     }
+     
+
+
 }
 
 }

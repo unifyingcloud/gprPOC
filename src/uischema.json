@@ -1,22 +1,97 @@
 {
-    "type": "VerticalLayout",
-    "elements": [
-     
-      {
-        "type": "Control",
-        "scope": "#/properties/Numero de Averiguacion"
-      },
-      {
-        "type": "HorizontalLayout",
-        "elements": [
-          {
-            "type": "Control",
-            "scope": "#/properties/Fecha"
-          }
-         
-        ]
-      } 
-        
+
+   
+  "type": "Group",
+  "label": "REGISTRO",
+  "elements": [
+
+    {
+      "type": "Group",
+      "label": "I) NÚMERO DE AVERIGUACIÓN PREVIA O CARPETA DE INVESTIGACIÓN​",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "Numero de Averiguacion",
+          "scope": "#/properties/Numero de Averiguacion"
+        } ] 
+    } 
+  
+    ,
+    {
+      "type": "Group",
+      "label": "II) FECHA DE INICIO DE LA CARPETA DE INVESTIGACION",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "FECHA",
+          "scope": "#/properties/Fecha"
+        } ] 
+    } 
+  
+  
+  
+    ,
+    {
+      "type": "Group",
+      "label": "III) DELITO POR EL QUE SE INICIA LA CARPETA DE INVESTIGACION",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "TORTURA",
+          "scope": "#/properties/TORTURA"
+        },  {
+          "type": "Control",
+          "label": "DELITOS VINCULADOS, DESCRITOS EN LOS ART. 30 Y 31 DE LA LEY GENERAL​",
+          "scope": "#/properties/VINCULADOS"
+        },  {
+          "type": "Control",
+          "label": "TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES​",
+          "scope": "#/properties/TRATOS"
+        }]
+    }
       
-    ]
-  }
+      
+
+        ,
+        {
+          "type": "Group",
+          "label": "IV) DATOS DE LA INVESTIGACION DE ORIGEN",
+          "elements": [
+            {
+              "type": "Control",
+              "label": "TORTURA",
+              "scope": "#/properties/TORTURA"
+            },  {
+              "type": "Control",
+              "label": "DELITOS VINCULADOS, DESCRITOS EN LOS ART. 30 Y 31 DE LA LEY GENERAL​",
+              "scope": "#/properties/VINCULADOS"
+            },  {
+              "type": "Control",
+              "label": "TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES​",
+              "scope": "#/properties/TRATOS"
+            }]}
+            
+
+        
+          
+
+  
+
+
+
+  
+  ]
+
+
+
+}
+          
+              
+      
+  
+  
+
+  
+ 
+ 
+
